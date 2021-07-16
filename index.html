@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/d3.min.js"></script>
+    <script src="js/map-interface.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <svg width="1000px" height="700px">
+        <g id="zoomLayer">
+          <g class="map"></g>
+          <g class="bounding-box"><rect></rect></g>
+          <g class="centroid"><circle r="4"></circle></g>
+        </g>
+      </svg>
+      <div class="info">
+        <h1 >Earth</h1>
+        <h2 class="name"></h2>
+        <p class="details"></p>
+      </div>
+    </div>
+  </body>
+</html>
